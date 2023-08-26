@@ -17,8 +17,10 @@ vim.fn.system("defaults read -g AppleInterfaceStyle")
 --read this property and will set a dark or light variant
 --accordingly
 if vim.v.shell_error ~= 0 then
+  -- vim.cmd.colorscheme("rose-pine")
   vim.o.background = "light"
 else
+  -- vim.cmd.colorscheme("tokyo")
   vim.o.background = "dark"
 end
 
