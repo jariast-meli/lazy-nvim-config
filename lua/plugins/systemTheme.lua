@@ -1,11 +1,3 @@
-local theme
-if vim.v.shell_error ~= 0 then
-  theme = "rose-pine"
-else
-  theme = "tokyonight"
-end
--- local theme = "tokyo"
-
 return {
   {
     "rose-pine/neovim",
@@ -19,12 +11,5 @@ return {
   {
     "folke/tokyonight.nvim",
     name = "tokyonight",
-  },
-
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = theme,
-    },
   },
 }
