@@ -13,7 +13,7 @@ return {
     ls.add_snippets("javascript", {
       snip({
         trig = "clg",
-        namr = "Console",
+        name = "Console",
         dscr = "Inserts a console snippet",
       }, {
         text({ "console.log('" }),
@@ -24,7 +24,7 @@ return {
       }),
       snip({
         trig = "i18",
-        namr = "i18n",
+        name = "i18n",
         dscr = "Inserts an i18n statement",
       }, {
         text({ "i18n.gettext('" }),
