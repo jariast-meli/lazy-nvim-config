@@ -9,4 +9,7 @@ vim.opt.winbar = "%=%m %f"
 --Checking system theme
 vim.fn.system("defaults read -g AppleInterfaceStyle")
 
--- vim.builtin.treesitter.autotag.enable = true
+-- Folding
+-- vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+-- vim.opt.foldmethod = "expr"
+-- vim.opt.foldnestmax = 1
